@@ -1,0 +1,54 @@
+.container__home{
+    display: flex;
+    align-items: center;
+}
+
+.home__content{
+    width: 50%;
+}
+
+.home__img{
+    width: 50%;
+}
+.home__img img{
+    width: 100%;
+}
+
+.home__content_title{
+    margin: 0;
+    font-size: 5rem;
+}
+
+.home__content__subtitle{
+    margin: 0 0 12px 0;
+    font-size: 1.5rem;
+}
+
+.home__rrss{
+    font-size: 1rem;
+    display: flex;
+    gap: 20px;
+}
+
+.icon__rrss{
+    width: 35px;
+}
+
+
+
+
+
+@media (max-width:550px){
+    .App{
+        padding: 0 1rem;
+    }
+    .container__home{
+        flex-direction: column;
+    }
+    .home__content{
+        width: 100%;
+    }
+    .home__img{
+        width: 100%;
+    }
+}
