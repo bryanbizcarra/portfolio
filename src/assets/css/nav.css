@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     position: sticky;
     top: 0;
+    padding: 1rem 4rem;
 }
 
 .icon__menu {
@@ -15,7 +15,15 @@
     display: flex;
     gap: 3rem;
 }
+.nav__title{
+    font-size: 2rem;
+    color: var(--color__text__black);
+    text-decoration: none;
+}
 
+.nav__title--logo{
+    width: 12rem;
+}
 .nav__link {
     text-decoration: none;
     border-radius: 6px;
@@ -44,6 +52,7 @@
     .nav__container{
         height: 80px;
         background-color: #fff;
+        padding: 0 1rem;
     }
     .nav{
         flex-direction: column;
@@ -55,6 +64,8 @@
         top: 79px;
         clip-path: circle(0.4% at 100% 0);
         transition: all .5s;
+        left: 0;
+        padding: 1rem 0;
     }
     .menu__open{
         clip-path: circle(141.6% at 100% 0);
