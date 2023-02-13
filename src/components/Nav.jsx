@@ -11,11 +11,11 @@ const Nav = () => {
     }
     return (
         <div className='nav__container'>
-            <a href='/' className='nav__title'><img className='nav__title--logo' src={logo}/></a>
+            <a href='https://bryanbizcarra.netlify.app' className='nav__title'><img className='nav__title--logo' src={logo}/></a>
             <div className={`nav ${statusMenu ? 'menu__open' : ''}`}>
-                <a onClick={chancheStatusMenu} href="#" className="nav__link">Inicio</a>
-                <a onClick={chancheStatusMenu} href="#" className="nav__link">Sobre mi</a>
-                <a onClick={chancheStatusMenu} href="#" className="nav__link">Mis proyectos</a>
+                <a onClick={chancheStatusMenu} href="#home" className="nav__link">Inicio</a>
+                <a onClick={chancheStatusMenu} href="#sobremi" className="nav__link">Sobre mi</a>
+                <a onClick={chancheStatusMenu} href="#proyectos" className="nav__link">Mis proyectos</a>
                 <a onClick={chancheStatusMenu} className="nav__link nav__link--download" download={'Bryan_Bizcarra_CV'} href={cv}>Descarga mi CV</a>
             </div>
             <img onClick={chancheStatusMenu} className='icon__menu' src={iconMenu} alt="" />

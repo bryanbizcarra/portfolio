@@ -1,4 +1,5 @@
 import './App.css'
+import AboutMe from './components/AboutMe'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Projects from './components/Projects'
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Nav></Nav>
       <Home></Home>
-      {/* <Projects></Projects> */}
+      <AboutMe></AboutMe>
+      <Projects></Projects>
     </div>
   )
 }

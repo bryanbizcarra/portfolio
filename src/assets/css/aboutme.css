@@ -1,0 +1,58 @@
+.container__aboutme{
+    display: flex;
+    padding: 0 4rem;
+    gap: 5rem;
+    align-items: center;
+}
+.container__img__aboutme{
+    width: 50%;
+}
+
+.img__aboutme{
+    width: 100%;
+}
+
+.container__content__aboutme{
+    width: 50%;
+}
+
+.title__content__aboutme{
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.title__content__habilities{
+    font-size: 1.3rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.subtitle__content__aboutme{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.list__content__habilities{
+    display: flex;
+    gap: 3rem;
+}
+
+
+@media(max-width:550px){
+    .container__aboutme{
+        flex-direction: column-reverse;
+        padding: 0 1rem;
+    }
+    .container__img__aboutme{
+        width: 100%;
+    }
+    .container__content__aboutme{
+        width: 100%;
+    }
+
+    .list__content__habilities{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+}

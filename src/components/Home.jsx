@@ -21,7 +21,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div className='container__home'>
+        <div id='home' className='container__home'>
             <div className="home__content">
                 <h1 className='home__content_title'>Bryan Bizcarra</h1>
                 <h2 style={{ overflow: 'hidden', whiteSpace: 'nowrap', width: `${width}%` }} className='home__content__subtitle' data-text='Soy desarrollador Front-End'>Soy desarrollador Front-End</h2>
@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="home__img">
-                <img className='img' src={imgBackground} alt="" />
+                <img className='img' src={imgBackground} alt="imagen de la home del portfolio de Bryan Bizcarra" />
             </div>
         </div>
     )
